@@ -8,7 +8,8 @@ import java.util.Scanner;
             System.out.println("enter b");
            b = input.nextInt();
            input.close();
-           int sum = a +b;
+           //a+=b;
+           int sum = a+b;
            System.out.println("the sum of two numbers is :"+sum);
     
     

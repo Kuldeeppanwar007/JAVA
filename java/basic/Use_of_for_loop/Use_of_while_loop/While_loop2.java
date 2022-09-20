@@ -4,7 +4,7 @@ public class While_loop2 {
     public static void main(String[] args) {
         int n = 1;
         while(n<10){
-            System.out.println(n+" ");  //diff(n+=2)
+            System.out.print(n+" ");  //diff(n+=2)
             n+=2;//
         }
         

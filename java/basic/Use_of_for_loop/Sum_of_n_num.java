@@ -6,8 +6,8 @@ public class Sum_of_n_num {
         for(int i = 1; i<=10 ; i++){
             sum=sum+i;
         }
-        
         System.out.println(sum);
+        
     }
     
 }

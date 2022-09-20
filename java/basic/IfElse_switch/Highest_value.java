@@ -13,15 +13,18 @@ public class Highest_value {
         sc.close();
 
 if (n1>=n2 && n1>=n3 && n1>=n4 && n1>=n5)//(a>c)
-System.out.println("the greatest number is :"+n1);
+System.out.println("the greatest number is n1 :"+n1);
 else  if (n2>=n1 && n2>=n3 && n2>=n4 && n2>=n5)//(b>d)
-System.out.println("the greatest number is :"+2);
+System.out.println("the greatest number is n2 :"+2);
 else  if (n3>=n1 && n3>=n2 && n3>=n4 && n3>=n5)//(d>e)
-System.out.println("the greatest number is :"+n3);
+System.out.println("the greatest number is n3 :"+n3);
 else  if (n4>=n1 && n4>=n2 && n4>=n3 && n4>=n5)
-System.out.println("the greatest number is :"+n4);
+System.out.println("the greatest number is n4 :"+n4);
 else  if (n5>=n1 && n5>=n2 && n5>=n3 && n5>=n4)
-System.out.println("the greatest number is :"+n5);
+System.out.println("the greatest number is n5 :"+n5);
+else{
+    System.out.println("invalid");
+}
 
 
 

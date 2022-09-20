@@ -10,17 +10,17 @@ public class Peri_triangle {
         float  z= sc.nextFloat();
         System.out.println("enter the number:");
         float  y= sc.nextFloat();
-        float sum = x+y+z;
+        float perimeter= x+y+z;
         sc.close();
         
 
         
         
         
-        //25+15>35.........25+35>15......25+35+15.
+        //25+15>35.........15+35>25......25+35>15.
        if(((x+y)>z) && ((y+z)>x) && ((x+z)>y))//triangle comdition/formula
         {  
-        System.out.println("perimeter of these number is :"+ sum);
+        System.out.println("perimeter of these number is :"+ perimeter);
 
         
     }

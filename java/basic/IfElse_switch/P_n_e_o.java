@@ -12,11 +12,16 @@ public class P_n_e_o {
               if(num%2==0) {
                 System.out.println("even");
                 }
-                else 
+                else {
                 System.out.println("odd");
-              } 
+              } }
               else{ 
                        System.out.println("negative");
+                       if(num%2==0) {
+                        System.out.println("even");
+                        }
+                        else {
+                        System.out.println("odd");
               }
     
     
@@ -24,5 +29,6 @@ public class P_n_e_o {
     }
     
      }
+    }
     
 

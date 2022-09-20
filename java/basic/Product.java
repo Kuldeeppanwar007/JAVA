@@ -9,6 +9,6 @@ import java.util.Scanner;
            b = input.nextInt();
            input.close();
            int product= a*b;
-           System.out.println("the sum of two numbers is :"+product);
+           System.out.println("the product of two numbers is :"+product);
         }
     }

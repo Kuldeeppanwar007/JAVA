@@ -8,7 +8,6 @@ public class WorldHello {
 
    String x =  sc.next();
 
-    // System.out.println(x);
     System.out.println(x);
     sc.close();
 
