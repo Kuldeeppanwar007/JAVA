@@ -7,7 +7,7 @@ public class Ap_Series {
         for(int i =1 ; i<=term; i++){
             sum=sum+j;
             System.out.println(j);
-            j=j+diff;
+            j=j+diff; 
         }
         System.out.println("sum of ap series :"+sum);
     
