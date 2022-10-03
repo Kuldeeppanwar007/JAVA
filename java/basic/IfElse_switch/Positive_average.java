@@ -49,9 +49,12 @@ public class Positive_average {
                 sum+=e;
             }
             
+            
 
+                System.out.println("sum of postive number:"+sum );
                 System.out.println("Number of positive numbers:"+countP );
                 System.out.println("Average of positive numbers:"+sum / countP);
+                
         }
     }
     

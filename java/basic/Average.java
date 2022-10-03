@@ -17,7 +17,7 @@ public class Average {
     float item2 = 4 ;
     float average =(((weight1*item1)+(weight2*item2))/(item1+item2));
 
-        System.out.println( "Average : "+ average);
+        System.out.println( "Average : "+ (int)average);
         
     
         
